@@ -1,14 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../src/tailwind/tailwind.css">
     <link rel="stylesheet" href="../src/sass/style.css">
+    <link rel="stylesheet" href="../src/tailwind/output.css">
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        .box {
+            color: rgb(212, 212, 212);
+        }
+    </style>
+
+
 </head>
+
 <body>
-    <h1 class="py-2 px-6 bg-purple-600 text-center">Mehdi Əsgərov</h1>
+    <!-- Header section -->
+    <header class="bg-black py-12 text-blue font-gemunu uppercase">
+        <!-- Header container -->
+        <div class="container flex items-center justify-between space-x-16">
+            <!-- Logo -->
+            <a href="#" class="font-bold text-6xl text-blue text-transparent bg-gradient-to-r bg-clip-text from-light-red to-blue">LOGO</a>
+
+            <!-- Navigation -->
+            <nav class="flex justify-between flex-1">
+
+                <!-- Menu -->
+                <div class="flex items-center text-lg space-x-8">
+                    <a href="#" class="text-blue hover:text-light-yellow transition duration-300">movies</a>
+                    <a href="#" class="text-blue hover:text-light-yellow transition duration-300">celebrites</a>
+                    <a href="#" class="text-blue hover:text-light-yellow transition duration-300">blog</a>
+                    <a href="#" class="text-blue hover:text-light-yellow transition duration-300">news</a>
+                    <a href="#" class="text-blue hover:text-light-yellow transition duration-300">about</a>
+                </div>
+
+                <!-- Login Area -->
+                <div class="flex items-center space-x-8">
+                    <!-- Search Area -->
+                    <form>
+                        <div class="group border-r px-4 mx-4 border-light-red">
+                            <input type="text"
+                                class="opacity-0 group-hover:opacity-100 transition duration-300 bg-transparent border-b border-light-red focus:outline-none w-44">
+                            <button class="-ml-4 group-hover:ml-0 transition duration-300"><i
+                                    class="fas fa-search group-hover:text-light-red transition duration-300"></i></button>
+                        </div>
+                    </form>
+
+                    <!-- Signup area -->
+                    <div class="flex items-center space-x-8 text-lg">
+                        <a href="#">Login</a>
+                        <a href="#" class="bg-light-red px-3 py-1 hover:bg-rose-600 hover:text-blue cursor-pointer transition duration-300">Sign up</a>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+
 </body>
+
 </html>
